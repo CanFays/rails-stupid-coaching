@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="my-question border-start border-4">
+    <%= @toto %>
+    <p><em>-- You</em></p>
+  </div>
+
+  <div class="coach-answer border-start border-4 alert alert-warning" role="alert"">
+    <%= @bibi %>
+    <p><em>-- Your coach</em></p>
+  </div>
+
+  <div class="back-link">
+    <%= link_to "Go back interact with your coach !", "/ask" %>
+  </div>
+</div>
